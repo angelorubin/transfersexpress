@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel</title>
+    <script src="public/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+</head>
+
+<body>
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1" class=""></li>
+            <li data-target="#carousel" data-slide-to="2" class=""></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="text-van">
+                        <h1 class="text-large">Aluguel de vans <p>reserve a sua já!</p></h1>
+                        <h1 class="text-white text-medium">Você recebe seu orçamento no mesmo dia<p>Faça seu orçamento ou ligue (11) 3235-3131</p></h1>
+                        <a href="#" class="btn text-medium">Faça seu orçamento aqui</a>
+                    </div>
+                    <div class="van">
+                        <img class="img-responsive" src="public/img/van.png" alt="van">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="text-car">
+                        <h1 class="text-large">Carros executivos <p>com motorista!</p></h1>
+                        <h1 class="text-white text-medium">Motoristas bilíngues, sem atraso<p>Faça seu orçamento ou ligue (11) 3235-3131</p></h1>
+                        <a href="#" class="btn text-medium">Faça seu orçamento aqui</a>
+                    </div>
+                    <div class="car">
+                        <img class="img-responsive car" src="public/img/carro.png" alt="carro">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="text-micro">
+                        <h1 class="text-large">Microônibus <p>até 26 pessoas!</p></h1>
+                        <h1 class="text-white text-medium">Veículos novos, conforto e segurança<p>Faça seu orçamento ou ligue (11) 3235-3131</p></h1>
+                        <a href="#" class="btn text-medium">Faça seu orçamento aqui</a>
+                    </div>
+                    <div class="micro">
+                        <img class="img-responsive" src="public/img/micro.png" alt="microonibus">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="icon-prev"></span>
+            
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="icon-next"></span>
+            
+        </a>
+    </div>
+</body>
+
+</html>
